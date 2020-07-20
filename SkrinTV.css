@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Andy";
+    src: url("AndyBold.ttf");
+}
+
+@font-face {
+    font-family: "NotoSerif";
+    src: url("NotoSerifCJKjp-SemiBold.otf");
+}
+
+#tv {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    float: left;
+    left: 154px;
+    top: 61px;
+    width: 1282px;
+    height: 705px;
+    background-color:rgba(37, 36, 36, 0.336);
+    color: rgb(255, 235, 251);
+}
+
+#window {
+    position: absolute;
+    z-index: 2;
+    float: left;
+    cursor: default;
+    bottom: 60px;
+    width: 1282px;
+}
+
+#taskbar {
+    position: absolute;
+    z-index: 2;
+    float: left;
+    bottom: 0;
+    width: 1282px;
+}
+
+#masa {
+    position: absolute;
+    z-index: 10;
+    float: right;
+    cursor: default;
+    bottom: 2px;
+    right: 45px;
+    color: rgb(248, 9, 140);
+    font-family: "Andy", "NotoSerif";
+    text-align: center;
+}
+
+#icoMyAnimeList {
+    position: absolute;
+    z-index: 2;
+    float: left;
+    bottom: 14px;
+    left: 115px;
+    background-repeat: no-repeat;
+}

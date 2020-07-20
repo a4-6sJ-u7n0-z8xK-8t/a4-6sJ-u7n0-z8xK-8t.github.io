@@ -1,0 +1,16 @@
+#hotarun {
+    position: fixed;
+    float: left;
+    left: 0px;
+    top: 0px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#escape {
+    position: fixed;
+    float: right;
+    top: 25px;
+    right: 25px;
+    background-repeat: no-repeat;
+}
