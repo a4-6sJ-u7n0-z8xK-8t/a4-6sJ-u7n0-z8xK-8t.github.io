@@ -50,6 +50,15 @@
     text-align: center;
 }
 
+#sagasuMado {
+    position: absolute;
+    z-index: 10;
+    float: left;
+    cursor: default;
+    bottom: 60px;
+    left: 0px;
+}
+
 #icoMyAnimeList {
     position: absolute;
     z-index: 2;
