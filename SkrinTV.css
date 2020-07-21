@@ -23,7 +23,7 @@
 
 #window {
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     float: left;
     cursor: default;
     bottom: 60px;
@@ -53,14 +53,24 @@
 #sakuMado {
     position: absolute;
     z-index: 2;
-    bottom: 72px;
+    bottom: 65px;
 }
 
-#icoMyAnimeList {
+.icons {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.icoMyAnimeList {
     position: absolute;
     z-index: 2;
     float: left;
     bottom: 14px;
     left: 115px;
+    padding: 5px;
     background-repeat: no-repeat;
 }
